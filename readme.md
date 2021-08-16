@@ -1,4 +1,4 @@
-# Aprende a usar control de versiones más rápido que un "Hola Mundo":
+# Aprende a usar un control de versiones más rápido que hacer un café:
 
 ## Contenido:
 
@@ -50,33 +50,33 @@ O bien, si necesitas alguna otra versión de git presiona en donde dice "Downloa
 
 Una vez que haya finalizado la descarga podremos instalar git en nuestro equipo. Da doble click sobre el elemento que se descargó, esa acción te desplegará una ventana como la siguiente:
 
-<img src="media/instalacion/1.png" style="border-radius: 5%;"/>
+<img src="media/instalacion/1.PNG" style="border-radius: 5%;"/>
 
 Lee los *terminos y condiciones*
  del uso de *git* y presiona en **siguiente**, esto te mostrará lo siguiente:
 
-<img src="media/instalacion/2.png" style="border-radius: 5%;"/>
+<img src="media/instalacion/2.PNG" style="border-radius: 5%;"/>
 
 Te recomiendo dejar las opciones seleccionadas por defecto. Presiona **siguiente** para seguir con el proceso de instalación.
 
-<img src="media/instalacion/3.png" style="border-radius: 5%;"/>
+<img src="media/instalacion/3.PNG" style="border-radius: 5%;"/>
 
 Verás la siguiente ventana donde te pregunta el editor de código que usarás con git. Si aún no sabes que editor usarás, te recomiendo que dejes seleccionado **Vim**, esto no significa que siempre trabajarás con Vim, sino que sólo será el editor por defecto, más adelante podrás usar git en cualquier otro editor.
 Presiona **siguiente**
 
-<img src="media/instalacion/4.png" style="border-radius: 5%;"/>
+<img src="media/instalacion/4.PNG" style="border-radius: 5%;"/>
 
 Te recomiento que en este apartado presiones la opción de abajo y coloques **main** este nombre será el que adopte la rama principal de trabajo. (este nombre es libre de jerarquias y clasismos con respecto a master). Presiona **Siguiente**.
 
-<img src="media/instalacion/5.png" style="border-radius: 5%;"/>
+<img src="media/instalacion/5.PNG" style="border-radius: 5%;"/>
 
 Mantén seleccionada la tercera opción para que puedas hacer uso de Git mediante cualquier otra terminal y no sólo desde la Git Bash que nos generará al final de esta instalación. Presiona **siguiente**.
 
-<img src="media/instalacion/6.png" style="border-radius: 5%;"/>
+<img src="media/instalacion/6.PNG" style="border-radius: 5%;"/>
 
 Te recomiendo dejar la opción por defecto y dar **siguiente** en las proximas 6 ventanas.
 
-<img src="media/instalacion/7.png" style="border-radius: 5%;"/>
+<img src="media/instalacion/7.PNG" style="border-radius: 5%;"/>
 
 En la ultima ventana sólo presiona **instalar** y espera a que este proceso termine.
 
@@ -187,16 +187,16 @@ git remote add origin https://github.com/YanniMartinez/Aprende-Git-en-5-Minutos.
 
 * Repite los pasos de la sección anterior llamada "Trabaja de forma local con Git" o en ese mismo repositorio haz lo siguiente:
 
-<img src="media/repo/gitRemote.png" style="border-radius: 2%;"/>
+<img src="media/repo/gitRemote.PNG" style="border-radius: 2%;"/>
 
 * Para verificar que se realizó correctamente la conexión ejecuta `git remote -v`
 
-<img src="media/repo/remoteV.png" style="border-radius: 2%;"/>
+<img src="media/repo/remoteV.PNG" style="border-radius: 2%;"/>
 
 * Si te listó 2 elementos ¡lo hiciste bien!
 
 * Ahora sólo nos falta enviar los cambios locales al repositorio en GitHub, para ello ejecutamos el comando `git push origin main` ó `git push origin master` según como hayas configurado la instalación (en mi caso será `main`). Si es la primera vez que usas Git con GitHub te pedirá iniciar sesión para comprobar que eres tú el dueño de la cuenta (Si te da error verifica que hayas colocado nombre de usuario y correo al configurar tu Git, esto puedes consultarlo en los primeros pasos del manual).
 
-<img src="media/repo/pushMain.png" style="border-radius: 2%;"/>
+<img src="media/repo/pushMain.PNG" style="border-radius: 2%;"/>
 
 ### Actualiza el sitio web de GitHub y ¡listo! Ya enviaste los archivos de un sitio local a tu GitHub.
