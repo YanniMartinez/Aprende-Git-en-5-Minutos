@@ -11,6 +11,7 @@
 * [Trabaja con Git de forma Local](#trabaja-con-git-de-forma-local). :bust_in_silhouette:
 * [¿Cómo trabajar con Git & GitHub?](#cómo-trabajar-con-git--github) :hamster:
 * [Trabaja con Git & GitHub en equipo](#trabaja-con-git--github-en-equipo) :busts_in_silhouette:
+* [Glosario de Términos de Git y GitHub](#glosario-de-términos-de-git-y-gitHub)
 
 ## **¿Qué es un control de versiones?**
 
@@ -255,4 +256,14 @@ git pull origin main
 * Si no te permite actualizar el repositorio te marcará el problema, trata de solucionarlo y vuelve a intentar el comando.
 * Si hiciste un Fork, dirigete al repositorio ubicado en tu perfil y presiona donde dice `fetch upstream` eso actualizará el repo de tu perfil con todos los nuevos cambios que existan en el repo original de la persona.
 
-## Glosario de Términos de Git y GitHub:
+## Glosario de Términos de Git y GitHub
+| Término | Significado o uso |
+| --- | --- |
+| `Status` | Indica el estado actual del repositorio |
+| `Commit` | Indica el punto de guardado de un cambio. Contiene un identificador, un mensaje, una fecha de creación, la firma de quien realiza el commit y el nombre que le fue dado a ese commit.  |
+| `Push` | Hace alución a empujar algo, es decir, lo que hace es enviar los archivos o cambios modificados a un repositorio |
+| `Pull` | Hace alución a jalar algo, es decir, lo que hará es jalar los cambios que existen en el repositorio original, permitirá actualizar los datos. |
+| `Pull Request (PR)` | Es una solicitud de cambio que hace la persona que efectuó cambios en el código. La PR sólo será aceptada unicamente por la persona con rol de administrador dentro del repositorio, esta persona verificará el código y lo aceptará o rechazará en función de lo que se necesite en el proyecto.|
+| `Rama` | Hace referencia al flujo de trabajo, son utilizadas para que los cambios no se vean reflejados en el flujo principal del proyecto, permite abordar tareas separadas, permite evitar bugs y un orden en caminos que puede tomar el proyecto. Pueden constituir una o más versiones del proyecto para poder ser implementadas en el producto final. |
+| `Merge` | Es la fusión de cambios de una versión a otra, suele ser usado en ramas para fusionar el código de una versión con otra. |
+| `Checkout` | Nos permite cambiar el punto de partida, sirve para cambiar de ramas o incluso hacer viajes en el tiempo entre commits para poder retornar a un punto en donde el proyecto funcionaba a la perfección o donde no existia bugs, esto permite retornar a versiones pasadas del proyecto y tomar acciones al respecto. |
