@@ -10,7 +10,7 @@
 * [Comandos básicos en git](#comandos-básicos-en-git). :book:
 * [Trabaja con Git de forma Local](#trabaja-con-git-de-forma-local). :bust_in_silhouette:
 * [¿Cómo trabajar con Git & GitHub?](#cómo-trabajar-con-git--github) :hamster:
-* [Trabaja con Git & GitHub en equipo](#trabaja-con-git--github-en-equipo) :busts_in_silhouette:
+* [Trabaja con Git & GitHub en equipo](#trabaja-con-git--github-en-equipo-) :busts_in_silhouette:
 * [Glosario de Términos de Git y GitHub](#glosario-de-términos-de-git-y-gitHub)
 
 ## **¿Qué es un control de versiones?**
