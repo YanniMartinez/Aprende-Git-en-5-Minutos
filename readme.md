@@ -214,6 +214,9 @@ git remote add origin https://github.com/YanniMartinez/Aprende-Git-en-5-Minutos.
 * * Hacer **Fork** del proyecto (Es el método más recomendado para procesos de trabajo largos)
 * * Clonar directamente el repositorio.
 * Una vez que hayas elegido el camino lo que deberás hacer es irte a la sección que dice `Code` y copiar el enlace que nos proporcionar GitHub.
+
+<div align="center"><img src="media/Imagenes/clonar.PNG" style="border-radius: 2%;" width="70%"/></div>
+ 
 * Dirigete a tu `git bash` y posicionate en una carpeta en la que te sientas cómodo.
 * Posicionado en el lugar correcto ingresa el siguiente comando:
 ```
