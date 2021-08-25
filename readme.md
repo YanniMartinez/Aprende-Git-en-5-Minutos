@@ -227,6 +227,8 @@ git clone direcciónRepositorioProvenienteDelBotonCODE
 ```
 usuer@Desktop MINGW64 ~/ rutaRelativaDelDirectorio (main/master)
 ```
+<div align="center"><img src="media/Imagenes/gitClonar.PNG" style="border-radius: 2%;" width="70%"/></div>
+ 
 * Puede listar los archivos de la carpeta con el comando `ls`
 * Ya que se verificó que la clonación se realizó correctamente entonces es hora de **crear una rama**, el motivo de crear una rama es para que todos los cambios efectuados sean sobre un "camino separado" y no directamente sobre el flujo principal (esto permite evitar conflictos a largo plazo y trabajar en tareas específicas), para crear una rama usamos el comando `git branch nombreDeLaRama` y posteriormente cambiaremos de la rama principal con el comando `git checkout nombreDeLaRama`. Esto se vería de la siguiente manera:
 ```
@@ -236,6 +238,9 @@ git checkout nombreDeLaRama
 
 usuer@Desktop MINGW64 ~/ rutaRelativaDelDirectorio (nombreDeLaRama)     //Verá entre parentesis el nombre de la rama
 ```
+
+<div align="center"><img src="media/Imagenes/newBranch.PNG" style="border-radius: 2%;" width="70%"/></div>
+
 * Cuando estés posicionado en tu rama ahora es posible hacer todos los cambios que necesites, y podrás hacer los comandos básicos, a continuación te mostraré los comandos o el orden que suele existir:
 ```
 git status
@@ -243,15 +248,31 @@ git add .
 git status (Para verificar los cambios)
 git commit -m "Descripción de lo que hacen los cambios anteriores"
 ```
+
+<div align="center"><img src="media/Imagenes/gitCommit.PNG" style="border-radius: 2%;" width="70%"/></div>
+
 * Aquí no será necesario ejecutar el comando `git remote add UrlRepositorio` porque al clonar ya la incluye, incluso puedes verificarlo ejecutando el comando `git remote -v`
 * Una vez que tengas los cambios y el o los commit's hechos y quieras mandar estos cambios a GitHub, lo que harás es ejecutar el siguiente comando:
 ```
 usuer@Desktop MINGW64 ~/ rutaRelativaDelDirectorio (nombreDeLaRama) 
 git push origin nombreDeLaRama
 ```
+
+<div align="center"><img src="media/Imagenes/push.PNG" style="border-radius: 2%;" width="70%"/></div>
+
 * Presta atención, el comando anterior lo que hará es enviar los cambios a la rama indicada y no en la rama main, esto permite tener los cambios "aislados" del flujo principal evitando problemas, es decir, sólo ocurren dentro de la rama.
 * Dirigete al repositorio en GitHub y verás un botón que dice `create pull request`. Una pull request es una solicitud de cambio que sólo el propietario o administrador del repositorio aceptará.
-* **¡Listo, sólo espera a ver si tus cambios son aceptados!** Con esto ya estás trabajando en equipo.
+
+<div align="center"><img src="media/Imagenes/pull.PNG" style="border-radius: 2%;" width="70%"/></div>
+
+* Al dar clic se necesitará ingresar un comentario acerca de los cambios realizados.
+
+<div align="center"><img src="media/Imagenes/pullComent.PNG" style="border-radius: 2%;" width="70%"/></div>
+
+* Ahora solo presiona en **Create pull request**
+
+* **¡Listo, sólo espera a ver si tus cambios son aceptados!** Con esto ya estás trabajando en equipo. (Si existe algun error, revisalo).
+
 * Si quisieras actualizar los cambios en tu repositorio local lo que debes hacer es ejecutar el comando:
 ```
 git pull origin main
